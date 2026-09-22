@@ -8,7 +8,7 @@ import os
 load_dotenv()
 SUDO_PASSWD = os.getenv("SUDO_PASSWD")
 
-with open('passwords.txt', "r") as file:
+with open('passwords.txt', 'r') as file:
     passwords = file.readlines()
 
 counter = 1
